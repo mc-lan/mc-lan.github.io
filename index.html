@@ -73,7 +73,8 @@
               <img src="images/misc/profile.jpg">
             </figure>
             <div class="content">
-              <h2 style="margin-top: 1em">Mengcheng Lan <br/> 兰孟城</h2>
+              <h2 style="margin-top: 1em">Mengcheng Lan <br/></h2>
+              <h2 style="margin-top: 0.2em">兰孟城 <br/></h2>
               <p>
                 <b>S-Lab@NTU</b><br/> 
                 Singapore<br/> 
@@ -136,45 +137,60 @@
 
             <!--Experience-->
             <h2 id="experiences" style="margin-bottom: 25px;">Experiences</h2>
-            
-            <article class="columns">
-              
-              <div class="column is-2" >
-                <div class="image">
-                  <img src="images/misc/ntu.png" >
-                </div>
-              </div>
-             
-              <div class="column">
-                <div class="content">
-                  <p>
-                    <b>Research Associate</b> | CIL, Nanyang Technological University, Singapore<br>
-                    Time: Aug 2022 - Jan 2023. Worked with <a href="https://keyiping.wixsite.com/index" target="_blank">Prof. Yiping ke, Kelly</a>
-                  </p>
-                </div>
-              </div>
-            </article>
 
-            <article class="columns">
-              <div class="column is-2" >
-                <div class="image">            
-                  <a href="https://gaplab.cuhk.edu.cn/" target="_blank" style="font-size: 20px;">
-                  <img src="images/misc/cuhk.png" >
-                </a>
-                </div>
-              </div>      
-              <div class="column">
-                <div class="content">
-                  <p>
-                    <b>Research Assistant</b> | <a href="https://gaplab.cuhk.edu.cn/" target="_blank">GAP Lab</a>, The Chinese Uniersity of Hong Kong, Shenzhen<br>
-                    Time: Jul 2020 - Jul 2022.  Worked with <a href="https://sse.cuhk.edu.cn/en/faculty/hanxiaoguang" target="_blank">Prof. Xiaoguang Han</a> on the topics of weather nowcasting and video prediction.
-                  </p>
-                </div>
-              </div>
-            </article>
+            <div class="content">
+              <ul style="padding-left: 0; margin: 0;">
+                <li class="exp-item">
+                  <span class="exp-date"><i>Apr 2025 - Present</i></span>
+                  <span><b>Research Intern</b>, ByteDance/TikTok, Singapore. Working with 
+                    <a href="https://speedinghzl.github.io/" target="_blank">Zilong Huang</a> and 
+                    <a href="https://songbai.site/" target="_blank">Song Bai</a>
+                  </span>
+                </li>
+                <li class="exp-item">
+                  <span class="exp-date"><i>Aug 2022 - Jan 2023</i></span>
+                  <span><b>Research Associate</b>, CIL, Nanyang Technological University, Singapore. Working with 
+                    <a href="https://keyiping.wixsite.com/index" target="_blank">Prof. Yiping Ke, Kelly</a>
+                  </span>
+                </li>
+                <li class="exp-item">
+                  <span class="exp-date"><i>Jul 2020 - Jul 2022</i></span>
+                  <span><b>Research Assistant</b>, 
+                    <a href="https://gaplab.cuhk.edu.cn/" target="_blank">GAP Lab</a>, The Chinese University of Hong Kong, Shenzhen. Working with 
+                    <a href="https://sse.cuhk.edu.cn/en/faculty/hanxiaoguang" target="_blank">Prof. Xiaoguang Han</a>
+                  </span>
+                </li>
+              </ul>
+            </div>
+
+            <style>
+              .exp-item {
+                display: flex;
+                align-items: flex-start;
+                margin-bottom: 0.8em;
+                padding-left: 1.2em; 
+                position: relative;
+              }
+
+              .exp-item::before {
+                content: "•";     
+                position: absolute;
+                left: 0;
+                color: black;     
+                font-size: 1.5em;  
+                line-height: 1;
+              }
+
+              .exp-date {
+                width: 180px;
+              }
+            </style>
+
+
+
+
 
   
-
             <!--Publications-->
             <h2 id="publications">
               Publications
@@ -412,12 +428,13 @@
             <h2 id="services">Services</h2>
               <b>Conference Reviewer</b>:
               <ul>
-                <li>ICLR, CVPR, ICCV, AAAI</li>
+                <li>ICLR, NeurIPS, CVPR, ICCV, AAAI</li>
               </ul>
               <b>Journal Reviewer</b>:
               <ul>
                 <li>Neurocomputing</li>
                 <li>Engineering Applications of Artificial Intelligence (EAAI)</li>
+                <li>International Journal of Computer Vision (IJCV)</li>
               </ul>
 
             <!--Teaching-->
